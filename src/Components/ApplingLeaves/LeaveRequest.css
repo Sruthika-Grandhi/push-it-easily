@@ -1,0 +1,56 @@
+.container {
+  background-color: white;
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 30px auto;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+select,
+input[type="date"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+textarea {
+  resize: none;
+  height: 80px;
+}
+
+.leave-checkboxes {
+  margin-bottom: 20px;
+}
+
+.leave-checkboxes label {
+  display: block;
+  margin: 8px 0;
+}
+
+.apply-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #a68f00;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.apply-btn:hover {
+  background-color: #8a7700;
+}
